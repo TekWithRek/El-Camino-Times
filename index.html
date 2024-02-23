@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Camino Times</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Festive&family=New+Rocker&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+</head>
+<style>
+
+.header-container{
+    top: 0px;
+    left: 0px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 1455px;
+    height: 240px;
+    padding-bottom: 50px;
+    border-bottom: 0cap;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.head-bottom{
+    display: flex; flex-direction: row;
+    margin-top: 60px;
+}
+
+.search{
+    margin-right: 5px;
+    font-size: 15px;
+    font-family: 'newsreader';
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.subscribe:hover{
+    background-color: rgb(82, 82, 146);
+}
+
+.subscribe{
+    margin-left: 5px;
+    background-color: rgb(128, 128, 220);
+    font-family: 'newsreader';
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-width: 1px;
+    border-color: rgb(97, 92, 92);
+    border-radius: 15px;
+}
+
+.subscribe:hover{
+    background-color: rgb(82, 82, 146);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.subscribe:active{
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(128, 128, 220);
+}
+
+
+
+
+
+
+.head-title{
+    font-family:'almendra SC';
+    font-size: 55px;
+    font-stretch:ultra-expanded;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 5px;
+}
+
+.head-subtitle{
+    margin-top: 2px;
+    font-family: 'newsreader';
+}
+
+.logo{
+    width: 60px;
+    
+}
+
+
+
+
+
+.nav-container{
+    display: flex; flex-direction: row;
+    top: 0px;
+    left: 0px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.nav-items{
+    font-family: 'newsreader';
+    cursor: pointer;
+}
+
+.nav-items:active{
+    color: rgb(5, 12, 23);
+}
+
+.nav-items:hover{
+    color: rgb(94, 145, 177);
+}
+
+.latest-arti-container{
+    
+    display: flex; flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.latest-articles{
+    width: fit-content;
+    font-family: 'new rocker';
+    font-size: 25px;
+    color: rgb(102, 95, 95);
+}
+
+.article-grid{
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; 
+                column-gap: 10px; 
+                row-gap: 0px;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 100px ;
+    height: 1000px;
+    
+}
+
+.Examples{
+    width: 250px;
+    height: 300px;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    border-style: solid
+    
+}
+
+</style>
+
+
+
+
+
+
+
+<body>
+    
+    <!--Head Container-->
+    <div class="header-container">
+
+       
+        <p class="head-title">El Camino Times</p>
+        <p class="head-subtitle">A publication of the El Camino jounalism club</p>
+        <img class="logo" src="images/elcaminoeaglelogo.webp">
+        
+        <div class="head-bottom">
+            <input class="search" type="text" placeholder="Search">
+            <button class="subscribe">Subscribe to newsletter</button>
+        </div>
+      </div>
+
+
+
+   
+   <!--Nav Container-->
+    <div class="nav-container">
+            <p class="nav-items">Home</p>
+            <p class="nav-items">About Us</p>
+            <p class="nav-items">School News</p>
+            <p class="nav-items">Arts and entertainment</p>
+            <p class="nav-items">Features</p>
+    </div>
+
+    <!--Latest Articles-->
+
+    <div class="latest-arti-container">
+        <p class="latest-articles">El Camino Times latest articles </p>
+    </div>
+
+
+    <!--article display grid-->
+    <div class="article-grid">
+        <div class="Examples">
+            <p>Example 1</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 2</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 3</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 4</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 5</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 6</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 7</p>
+        </div>
+
+        <div class="Examples">
+            <p>Example 8</p>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
